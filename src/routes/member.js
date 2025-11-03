@@ -1,21 +1,21 @@
-import express from 'express';
+import express from "express";
 
 const router = express.Router();
 
-router.get('/members', (req, res) => {
-  res.send('TODO: Members API (GET)');
+router.get("/", (req, res) => {
+  res.send("TODO: Members API (GET)");
 });
 
-router.post('/members', (req, res) => {
-  res.send('TODO: Members API (POST)');
+router.post("/", (req, res) => {
+  res.send("TODO: Members API (POST)");
 });
 
-router.put('/members/:id', (req, res) => {
-  res.send('TODO: Members API (PUT)');
+router.put("/:id", (req, res) => {
+  res.send("TODO: Members API (PUT)");
 });
 
-router.delete('/members/:id', (req, res) => {
-  res.send('TODO: Members API (DELETE)');
+router.delete("/:id", (req, res) => {
+  res.send("TODO: Members API (DELETE)");
 });
 
 export default router;
