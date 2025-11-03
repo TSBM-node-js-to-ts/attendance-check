@@ -1,0 +1,24 @@
+{
+  "name": "attendance-check",
+  "version": "1.0.0",
+  "description": "Attendance Check Server for Eloom Church, Wonju",
+  "homepage": "https://github.com/TSBM-node-js-to-ts/attendance-check#readme",
+  "bugs": {
+    "url": "https://github.com/TSBM-node-js-to-ts/attendance-check/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSBM-node-js-to-ts/attendance-check.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
